@@ -11,7 +11,7 @@ ul {
 }
 
 li {
-   float: left;
+    float: left;
 }
 
 li a {
@@ -26,7 +26,8 @@ li a:hover {
     background-color: #111;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: solid;
     color: rgb(0, 0, 43);
@@ -54,7 +55,7 @@ h1, h2 {
     padding: 0 20px 20px;
 }
 
-.card .text > button {
+.card .text>button {
     background-color: gray;
     border: 0;
     color: white;
