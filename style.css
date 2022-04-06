@@ -11,7 +11,7 @@ ul {
 }
 
 li {
-   float: left;
+    float: left;
 }
 
 li a {
@@ -26,11 +26,13 @@ li a:hover {
     background-color: #111;
 }
 
-h1, h2{
+h1,
+h2 {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: solid;
     color: rgb(0, 0, 46);
 }
+
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
@@ -40,15 +42,15 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.container > article {
+.container>article {
     border: 1px solid rgb(164, 42, 42);
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 }
 
-.container > article img {
+.container>article img {
     max-width: 100%;
 }
 
@@ -56,7 +58,7 @@ p {
     padding: 0 20px 20px;
 }
 
-.text > button {
+.text>button {
     background: gray;
     border: 0;
     color: whitesmoke;
