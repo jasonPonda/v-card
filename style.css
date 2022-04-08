@@ -55,10 +55,16 @@ h2 {
     padding: 0 20px 20px;
 }
 
-.card .text>button {
-    background-color: gray;
-    border: 0;
-    color: white;
-    padding: 10px;
-    width: 100%;
+a {
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+
+}
+
+.bouton {
+    padding: 10px 25px;
+    color: whitesmoke;
+    border: 2px solid #222;
+    background-color: #222;
 }
