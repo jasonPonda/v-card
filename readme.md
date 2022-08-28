@@ -4,3 +4,4 @@ Write a Vcard (virtual card), it’s a small one page serving as a virtual busin
 
 I should use "modern" positioning techniques using the grid or flexbox model.
 
+![v-card](images/v-card.png)
